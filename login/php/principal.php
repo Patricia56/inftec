@@ -11,7 +11,7 @@ if(isset($_SESSION['session']))
 
 <body bgcolor="#F5A9F2">
 	<center><h2>BIENVENIDO</h2></center>
-	
+
 	<a href="salir.php"><h4>CERRAR SESSION</h4></a>
 </body>
 </html>
@@ -19,6 +19,6 @@ if(isset($_SESSION['session']))
 }else
 echo'<script type="text/javascript">
 	  alert("Registrarse para ver este contenido");
-	  window.location="http://localhost/pruebalogeo/login/index.php"
+	  window.location="http://localhost/infetec/login/index.php"
 </script>';
 ?>
