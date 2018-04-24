@@ -24,22 +24,22 @@
 				<form id="form-login" action="agregar.php" method="post" >
 
 					<p><label for="nombre">Nombre:</label></p>
-						<input name="nombre" type="text" id="nombre" class="nombre" placeholder="Pon tu nombre" autofocus=""/ ></p>
+						<input name="nombre" type="text" id="nombre" class="nombre" placeholder="Ingresa tu nombre" autofocus=""/ ></p>
 						<div id="mensaje1" class="errores"> Ingresa solo caracteres</div>
 
 					<!--=============================================================================================-->
 					<!-- En seguida de cada input se agregará un div con el mensaje de error-->
 					<p><label for="apellidos">Apellidos:</label></p>
-						<input name="apellidos" type="text" id="apellidos" class="apellidos" placeholder="Pon tus apellidos" /></p>
+						<input name="apellidos" type="text" id="apellidos" class="apellidos" placeholder="Ingresa tus apellidos" /></p>
 					    <div id="mensaje2" class="errores"> Ingresa solo caracteres</div>
 					<!--=============================================================================================-->
 
 					<p><label for="correo">Correo:</label></p>
-						<input name="correo" type="text" id="correo" class="correo" placeholder="Pon tu mail" /></p>
+						<input name="correo" type="text" id="correo" class="correo" placeholder="Ingresa tu correo electronico" /></p>
 						<div id="mensaje3" class="errores"> Mail no valido</div>
 
 					<p><label for="pass">Password:</label></p>
-						<input name="pass" type="password" id="pass" class="pass" placeholder="Pon tu contraseña" required=""/ ></p>
+						<input name="pass" type="password" id="pass" class="pass" placeholder="Ingresa tu contraseña" required=""/ ></p>
 
 					<p><label for="repass">Repetir Password:</label></p>
 						<input name="repass" type="password" id="repass" class="repass" placeholder="Repite contraseña" required="" /></p>
