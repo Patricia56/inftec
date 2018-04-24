@@ -17,7 +17,7 @@ if(isset($_SESSION['session']))
 <body>
 
 	<div id="registrar">
-          	<a href="./php/registro.php"</a>Registrate desde aqui</a>
+          	<a href="./php/registro.php"</a>Registrate</a>
     </div> <!-- fin opcion-->
 
 	<div id="envoltura">
@@ -33,10 +33,10 @@ if(isset($_SESSION['session']))
 					<!--ejemplo <label for="usuario">Usuario:</label>-->
 					<!--required es nuevo en html5, si el campo está vacío te avisa, pero cuidado, no valida la información-->
 					<p><label >Usuario:</label></p>
-						<input name="usuario" type="text" id="usuario" placeholder="Ingresa Usuario" autofocus="" required=""></p>
+						<input name="usuario" type="text" id="usuario" placeholder="Ingresa tu nombre de usuario" autofocus="" required=""></p>
 
 					<p><label>Contraseña:</label></p>
-						<input name="contrasenia" type="password" id="contrasenia" placeholder="Ingresa Password" required=""></p>
+						<input name="contrasenia" type="password" id="contrasenia" placeholder="Ingresa tu contraseña" required=""></p>
 
 					<p id="bot"><input type="submit" id="submit" name="submit" value="Ingresar" class="boton"></p>
 				</form>
