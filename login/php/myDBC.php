@@ -45,7 +45,7 @@ class myDBC {
 		//El password obtenido se le aplica el crypt
 		//Posteriormente se compara en el query
 		$pass_c = crypt($contrasenia, '_er#.lop');
-		$q = "select * from usuarios where nombre='$usuario' and password='$pass_c'";
+		$q = "select nombre,password from usuarios where nombre='$usuario' and password='$contrasenia'";
 
 		$result = $this->mysqli->query($q);
 		//Si el resultado obtenido no tiene nada
@@ -57,7 +57,6 @@ class myDBC {
 				window.location="httP://localhost/inftec/login/index.php"
 				</script>';
 		}
-
 		//En otro caso
 		//En $reg se guarda el resultado de la consulta
 		//Al segundo posición de SESION se le asigna el id del usuario
@@ -91,7 +90,7 @@ class myDBC {
 		else
 		{
 			//Inserta en la BD
-			$q = "INSERT INTO usuarios (nombre, apellidos, correo, password) VALUES ('$nombre','$apellidos', '$mail', '$contras'); ";
+			$q = "INSERT INTO usuarios (nombre, apellidos, correo, password,cargo_id) VALUES ('$nombre','$apellidos', '$mail', '$contras','2');";
 
 			$result = $this->mysqli->query($q);
 			if($result){ //Si resultado es true, se agregó correctamente

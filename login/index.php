@@ -17,14 +17,14 @@ if(isset($_SESSION['session']))
 <body>
 
 	<div id="registrar">
-          	<a href="./php/registro.php"</a>Registrate</a>
+          	<a href="./php/registro.php"</a>Registrarse</a>
     </div> <!-- fin opcion-->
 
 	<div id="envoltura">
 		<div id="contenedor">
 
 			<div id="cabecera" >
-				<img src="./css/images/icon-user.png">
+				<img src="./css/images/logo.png">
 			</div>
 
 			<div id="cuerpo">
@@ -36,7 +36,7 @@ if(isset($_SESSION['session']))
 						<input name="usuario" type="text" id="usuario" placeholder="Ingresa tu nombre de usuario" autofocus="" required=""></p>
 
 					<p><label>Contraseña:</label></p>
-						<input name="contrasenia" type="password" id="contrasenia" placeholder="Ingresa tu contraseña" required=""></p>
+						<input name="contrasenia" type="password" id="contrasenia" placeholder="Ingresa su contraseña" required=""></p>
 
 					<p id="bot"><input type="submit" id="submit" name="submit" value="Ingresar" class="boton"></p>
 				</form>
