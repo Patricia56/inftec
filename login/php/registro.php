@@ -17,7 +17,7 @@
 		<div id="contenedor">
 
 			<div id="cabecera">
-				<img src="./../css/images/logo.png" >
+				<img src="./../css/images/icon-user.png" >
 			</div>
 
 			<div id="cuerpo">
@@ -35,14 +35,14 @@
 					<!--=============================================================================================-->
 
 					<p><label for="correo">Correo:</label></p>
-						<input name="correo" type="text" id="correo" class="correo" placeholder="Ingresa tu mail" /></p>
+						<input name="correo" type="text" id="correo" class="correo" placeholder="Ingresa tu correo electronico" /></p>
 						<div id="mensaje3" class="errores"> Mail no valido</div>
 
 					<p><label for="pass">Password:</label></p>
 						<input name="pass" type="password" id="pass" class="pass" placeholder="Ingresa tu contraseña" required=""/ ></p>
 
 					<p><label for="repass">Repetir Password:</label></p>
-						<input name="repass" type="password" id="repass" class="repass" placeholder="Repite tu contraseña" required="" /></p>
+						<input name="repass" type="password" id="repass" class="repass" placeholder="Repite contraseña" required="" /></p>
 						<div id="mensaje4" class="errores"> Passwords incorrectos</div>
 
 					<p id="bot"><input name="submit" type="submit" id="boton" value="Registrar" class="boton"/></p>
